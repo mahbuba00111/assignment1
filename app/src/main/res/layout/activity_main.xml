@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FADDBF"
+    >
+    <!-- ImageView -->
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/tv_login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Welcome to PaperTales"
+        android:textColor="#BC5948"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already registered? "
+        android:textSize="20sp"
+        android:textColor="#BC5948" />
+    <Button
+        android:id="@+id/btn_signin"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Sign in"
+        android:padding="12dp"
+        android:backgroundTint="#ED8876"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="8dp" />
+</LinearLayout>
+
+<LinearLayout
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textSize="20sp"
+        android:textColor="#BC5948" />
+    <Button
+        android:id="@+id/btn_signup"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#D35A45"
+        android:padding="16dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+</LinearLayout>
